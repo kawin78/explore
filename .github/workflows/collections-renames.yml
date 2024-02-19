@@ -3,8 +3,8 @@ name: Check and update renamed/removed collection items
 on:
   workflow_dispatch:
   schedule:
-    - cron:  "0 * * * *" # every hour
-
+    - cron:  "0 * # every hour
+.
 jobs:
   update:
     runs-on: ubuntu-latest
